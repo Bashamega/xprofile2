@@ -8,7 +8,7 @@ export function SectionTitle({
   description: string;
 }) {
   return (
-    <div className="text-center flex flex-col text-4xl xs:text-6xl lg:text-[76px]">
+    <div className="text-cente items-center flex flex-col text-4xl xs:text-6xl lg:text-[76px] w-full">
       <h1 className="bg-gradient-to-r from-[#FF5400] via-[#FF5400] to-[#FF0054] text-transparent bg-clip-text font-bold font-manrope ">
         {title}
       </h1>
